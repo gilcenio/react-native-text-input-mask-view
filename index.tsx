@@ -78,7 +78,7 @@ export const TextInputMaskCep = ({value, ...res}) => {
 export const TextInputMaskCPF = ({value, ...res}) => {
 
   function mCPF(cpf){
-    if (cpf.length <= 10){
+    if (cpf.length <= 14){
       cpf=cpf.replace(/\D/g,"")
       cpf=cpf.replace(/(\d{3})(\d)/,"$1.$2")
       cpf=cpf.replace(/(\d{3})(\d)/,"$1.$2")
@@ -102,7 +102,6 @@ export const TextInputMaskCNPJ = ({value, ...res}) => {
   function mCNPJ(cnpj){
 
     if (cnpj.length <= 18) {
-      cnpj = cnpj.toString()
       cnpj = cnpj.replace(/\D/g,"")
       cnpj = cnpj.replace(/^(\d{2})(\d)/,"$1.$2")
       cnpj = cnpj.replace(/^(\d{2})\.(\d{3})(\d)/,"$1.$2.$3")
