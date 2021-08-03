@@ -1,9 +1,19 @@
 {
-  "name": "react-native-text-input-mask-view",
-  "version": "1.0.0",
+  "name": "react-native-textinputmaskview",
+  "version": "1.0.6",
   "description": "Lib for React Native, TextInput with custom masks",
   "main": "index.js",
-  "repository": "https://github.com/gilcenio/react-native-text-input-mask-view.git",
-  "author": "<gilcenio2011@gmail.com>",
-  "license": "MIT"
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gilcenio/react-native-text-input-mask-view.git"
+  },
+  "author": " <gilcenio2011@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/gilcenio/react-native-text-input-mask-view/issues"
+  },
+  "homepage": "https://github.com/gilcenio/react-native-text-input-mask-view#readme",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
 }
